@@ -1,0 +1,163 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.headlogo{
+    cursor: pointer;
+    position: fixed;
+    left: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor:  pointer;
+}
+.logo{
+    width: 70px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+    border-radius: 50%;
+}
+.head{
+    height: 100vh;
+        background: linear-gradient(rgba(0,0,0,0.5),#008000), url(joy1.png);
+        background-size: cover;
+        background-position: center;
+}
+.first-text{
+    padding-top: 100px;
+    margin-left: 50px;
+}
+.first-text h1{
+    font-size: 60px;
+    font-style: italic;
+    color: #ff4500;
+}
+.first-text p{
+    font-size: 60px;
+    font-family: 'Ms Madi', cursive;
+    font-weight: bolder;
+}
+.container{
+    /* width: 100%; */
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container h1{
+    color: #fff;
+    font-family: 'Acme', sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+}
+/* About Us */
+.about-us{
+    background: #e6e4e4;
+    padding: 30px;
+}
+.open h1{
+    font-size: 70px;
+    color: #ff4500;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+.second-text{
+    margin: 20px;
+}
+.second-text h2{
+    font-size: 40px;
+    color: #008000;
+    font-weight: 100;
+    margin-left: 20px;
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.text img{
+/* padding-left: 100px; */
+width: 40%;
+height: 200px;
+}
+/* Join Us */
+.join-us{
+    padding: 30px;
+}
+.hey{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hey h1{
+    font-size: 60px;
+    color: #008000;
+}
+.jointext{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    line-height: 80px;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 200;
+}
+/* FOOTER */
+#footer{
+    padding: 30px;
+    background: #efefef;
+    position: relative;
+}
+.title-text h1{
+    color: #008000;
+    margin-left: 20px;
+    font-weight: 100;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+}
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left, .footer-right{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.footer-right{
+    text-align: right;
+}
+.footer-row h1{
+    margin: 10px 0;
+    color: #ff4500;
+}
+.footer-row p{
+    line-height: 35px;
+}
+.footer-left .fa, .footer-right .fa{
+    font-size: 20px;
+    color: #009688;
+    margin: 10px;
+}
+.footer-img{
+    max-width: 370px;
+    opacity: 0.1;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}
+.copyright{
+    text-align: center;
+}
+.copyright p{
+    align-items: center;
+    font-family: 'Kaushan Script', cursive;
+}
